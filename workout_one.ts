@@ -25,3 +25,16 @@ let arr1: (number | string | undefined)[] = ["test", 1, 2, "testing2", undefined
 let output1: (number | string)[][] = solve1(arr1) 
 console.log(output1) 
 
+
+
+
+interface type_obj1 {
+    id: number | string
+    names: string[] 
+    gender?: string
+}
+
+const obj1: type_obj1 = {
+    id: 1, 
+    names: ["testing12", "testing123"], 
+}
